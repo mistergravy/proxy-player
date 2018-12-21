@@ -1,0 +1,28 @@
+{
+  "name": "proxy-player",
+  "version": "1.0.0",
+  "description": "proxy for serving services",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistergravy/proxy-player.git"
+  },
+  "keywords": [
+    "proxy",
+    "service"
+  ],
+  "author": "Jared Horne",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mistergravy/proxy-player/issues"
+  },
+  "homepage": "https://github.com/mistergravy/proxy-player#readme"
+}
